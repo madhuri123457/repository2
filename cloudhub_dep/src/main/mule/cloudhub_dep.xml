@@ -12,5 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<set-payload value='"cloudhub deployment"' doc:name="Set Payload" doc:id="1b573f22-bc09-44d0-980b-d06972343006" />
 		<logger level="INFO" doc:name="Logger" doc:id="8010e6a1-cf1e-43f9-94dd-05d0fa46920c" message="end---#[payload]"/>
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="d06fccb9-c9d0-464c-8b45-514826220ca1" />
+		<logger level="INFO" doc:name="Logger" doc:id="96d2d81c-3ac8-41b7-92e6-1f01a0dfc90e" message="end"/>
 	</flow>
 </mule>
